@@ -24,6 +24,15 @@ require_once("login_connect.php");
 
 <?php
 
+if (isset($_REQUEST['Password_Updated'])) {
+    echo "<br>"."<h2 style='color:blue';>Password Updated Successfully</h2>";
+}
+
+?>
+
+
+<?php
+
 if (isset($_REQUEST['registered'])) {
     echo "<h1 style='color:blue;'>Congratulations !!! You are a registered user now</h1>";
 }
