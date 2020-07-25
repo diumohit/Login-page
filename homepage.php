@@ -87,7 +87,12 @@ if (isset($_REQUEST['logout_btn'])) {
 <center><p>This is homepage.Know vaunted a peace eeWhom far sore or sick for long. Time feeble he a he to hope. Flash he shamed however nor objects, wrong with him mote thou and than could, to me brow seemed few shrine, the from heart nor day, her in he will ne might him. Long a was sing.n whom had. Had feeble sullen that pilgrimage a. Such a his whilome and from savelore.Rill sun go and as despair where not to. Climes to high isle strength will by wassailers, nor his loathed.l</p></center>
 
 <br>
-<center><a href="logout.php" style="text-decoration: none;border:2px solid black;background-color:grey;padding:10px;border-radius:10px;box-shadow:5px 5px;transition:0.3s">Logout</a></center>
+<a href="changepassword.php" style="text-decoration: none;border:2px solid black;background-color:grey;padding:10px;border-radius:10px;box-shadow:5px 5px;transition:0.3s;margin-left:380px;color:black">Change Password</a>
+
+
+<a href="logout.php" style="text-decoration: none;border:2px solid black;background-color:grey;padding:10px;border-radius:10px;box-shadow:5px 5px;transition:0.3s;margin-left:380px">Logout</a>
+
+
 
 
 </body>

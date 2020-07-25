@@ -22,7 +22,8 @@ if ((isset($_REQUEST['user_name'])) && (isset($_REQUEST['user_phonenumber'])) &&
     $username = $_REQUEST['user_name'];
     $phonenumber = $_REQUEST['user_phonenumber'];
     $email = $_REQUEST['user_email'];
-    $password = $_REQUEST['user_password'];
+    $password1 = $_REQUEST['user_password'];
+    $password = md5($password1);
 
 
     $signup = "INSERT INTO tbl_login (user_name,user_phonenumber,user_email,user_password) VALUES('$username','$phonenumber','$email','$password')";
